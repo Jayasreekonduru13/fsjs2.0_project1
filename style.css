@@ -1,0 +1,82 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    margin-top: 50px;
+    margin-left: 100px;
+    font-family: Arial;
+}
+.navbar-container{
+    display: flex;
+    align-items: center;
+}
+.grow-list{
+    display: inline-block;
+    margin-left: 42px;
+}
+.list{
+    list-style: none;
+    display: flex;
+}
+.list-item{
+    padding-right:45px;
+    padding-top:5px;
+    font-size: 18px;
+    color: #878889;
+    gap:10px;
+}
+.list-item:hover{
+    color: #000000;
+}
+.button-group{
+    margin-left: 500px; 
+    /* padding-left: 440px;
+    padding-top: 18px; */
+}
+.nav-button{
+    border-radius: 8px;
+    background-color: #5055dd;
+    padding: 16px 33px;
+    color: #ffffff;
+    /* border-color: #7b7dbc; */
+    font-weight: bold;
+    border: none;
+    font-size: 17px;
+}
+.banner-container{
+    display:flex;
+    /* padding-right: 5px; */
+    padding-top: 10px;
+    width: 40%;
+    justify-content: center;
+}
+.heading-text{
+    margin-top: 82px;
+    font-size: 60px;
+    color: #120E43;
+}
+span{
+    color: #5055dd;
+}
+.description{
+    font-size: 17px;
+    color: #878889;
+    /* padding-right: 100px; */
+}
+h1,p{
+    margin:24px;
+}
+.btn{
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.banner-container div img{
+    height: 68%;
+    width: 60%;
+    position: absolute;
+    justify-content: right;
+    /* border: 2px solid black; */
+}
